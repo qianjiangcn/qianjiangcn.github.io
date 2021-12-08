@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <!--
+  *****************************************************************************
+  Metadata
+  *****************************************************************************
+  -->
+  <head>
+    <title>Qian Jiang</title>
+    <!--<link rel="shortcut icon" type="image/x-icon" href="https://ws.engr.illinois.edu/images/favicon.ico">-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="KEYWORDS" content="Qian Jiang, Qian J., Q. Jiang,
+      action recognition, action detection, fine grained, fined-grained,
+      signal processing, image processing, machine learning, deep learning,
+      action recognition, activity recognition, fine grained action">
+    <meta name="description" content="Qian Jiang&apos;s homepage">
+    <meta name="author" content="Qian Jiang">
+
+    <!--my format-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/menu_style.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/timeline.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151308818-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-151308818-1');
+    </script>
+  </head>
+
+
+  <!--
+  *****************************************************************************
+  Page layout, does not hold real content
+  *****************************************************************************
+  -->
+  <body onload="switchContent('home', 'homebtn');">
+    <!--navigation pane-->
+    <nav id="cssmenu">
+      <ul>
+        <li id="homebtn"><a onClick="switchContent('home', 'homebtn');" href="#">HOME</a></li>
+        <!-- <li id="publicationsbtn"><a onClick="switchContent('publications', 'publicationsbtn');" href="#">PUBLICATIONS</a></li> -->
+        <li id="newsbtn"><a onClick="switchContent('news', 'newsbtn');" href="#">RECENT NEWS</a></li>
+        <li id="resumebtn"><a onClick="switchContent('resume', 'resumebtn');" href="QianJiang_cv.pdf">R&Eacute;SUM&Eacute;</a></li>
+        <!-- <li id="cvbtn"><a onClick="switchContent('cv', 'cvbtn');" href="cv/qianjiang_cv.pdf">CV</a></li> -->
+      </ul>
+    </nav>
+
+    <!--where content will appear-->
+    <div id="whole_page">
+      <section id="main_content">
+        <div id="content_placeholder"></div>
+      </section>
+
+      <aside id="side_info">
+        <img src="res/qian.jpg" alt="" style="width:100%;height:100%;"/>
+        <p style="font-size:150%; font-weight:bold; margin:0;">Qian Jiang</p>
+        <p style="font-size:100%; margin:0;">Ph.D. Candidate</p>
+        <a style="font-size:100%;" href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a><br>
+        <p style="font-size:80%;"><i class="fa fa-globe"></i> CSL, 1308 W. Main St., Urbana, IL 61801</p>
+        <p style="font-size:80%;"><i class="fa fa-envelope-o"></i> qianj3 AT illinois DOT edu</p>
+        <p style="font-size:80%;"><i class="fa fa-github"></i> <a href="https://github.com/qianchiangcn">github.com/qianchiangcn</a></p>
+        <p style="font-size:80%;"><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/qianj3/">linkedin.com/in/qianj3</a></p>
+      </aside>
+    </div>
+
+    <div style="height:5em; clear:both;"></div>
+
+    <!--footer at the bottom of the page-->
+    <footer>
+      <p style="font-size:90%; padding-right:5%">Updated on 2021/11/30. <i class="fa fa-copyright"></i> 2021, Qian Jiang</p>
+    </footer>
+  </body>
+
+
+  <!--
+  *****************************************************************************
+  Real content, to appear on demand
+  *****************************************************************************
+  -->
+  <div id="content" style="display:none;">
+
+    <!--
+    ===========================================================================
+    Home tab
+    ===========================================================================
+    -->
+    <div id="home">
+      <h2>About</h2>
+      <p>
+        I am a second-year Ph.D. Candidate in the department of 
+        <a href="http://www.ece.illinois.edu/">Electrical and Computer Engineering</a> (ECE) at the <a href="http://www.illinois.edu/">
+        University of Illinois at Urbana-Champaign</a> (UIUC). 
+        I obtained my B.S. degree in Electronic Engineering in 2019
+        from <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a> (UESTC).
+      </p>
+
+      <p>
+        I am interested in research relating to machine learning and computer vision.
+        My current research involves transfer learning and AutoML. 
+      </p>
+
+      <p class="spacer"></p>
+
+      <h2>Research Interests</h2>
+      <p>Pattern Recognition, Machine Learning, Computer Vision.</p>
+      <p class="spacer"></p>
+         
+
+      <h2>Current and Past Affiliations</h2>
+      <table cellpadding="5em" width="100%" align="center">
+        <colgroup>
+          <col style="width:27%">
+          <col style="width:27%">
+          <col style="width:27%">
+          <col style="width:20%">
+        </colgroup>
+        <tr>
+          <td><img src="res/uiuc_logo.png" class="scalable"/></td>
+          <td><img src="res/c3sr_logo.png" class="scalable"/></td>
+          <td><img src="res/ibm_logo.gif" class="scalable"/></td>
+          <td><img src="res/ucla_logo.png" class="scalable"/></td>
+        </tr>
+        <tr style="text-align: center; font-size: 0.8em">
+          <td valign="top"><a href="https://illinois.edu/">UIUC</a><br>2019-Now</td>
+          <td valign="top"><a href="https://www.c3sr.com/">C3SR</a><br>2019-2021</td>
+          <td valign="top"><a href="https://www.ibm.com/watson">IBM Watson</a><br>Summer 2020</td>
+          <td valign="top"><a href="https://www.ucla.edu/">UCLA</a><br>Summer 2018</td>
+        </tr>
+      </table>
+      <p class="spacer"></p>
+
+      <h2>Publications</h2>
+      <table style="width:100%;" cellpadding="10em">
+        <colgroup>
+          <col style="width: 40%">
+          <col style="width: 60%">
+        </colgroup>
+        <!---->
+        <tr>
+          <td valign="top"><img class="pub_img" src="res/publications/raw_pipeline_final.png"></td>
+          <td valign="top">
+            <h3>EH-DNAS: End-to-End Hardware-aware Differentiable Neural Architecture Search</h3>
+            <p class="sub"><b>Qian Jiang*</b>, Xiaofan Zhang*, Deming Chen, Minh N. Do, Raymond A. Yeh</p>
+            <p class="sub"><i>Under submission, November 2021</i> <!-- <em>(Oral)</em> --></p>
+            <a href="https://arxiv.org/abs/2111.12299" class="btn">PDF</a>
+            <a href="https://github.com/qianjiangcn/eh-dnas" class="btn">Code</a>
+            <p class="spacer"></p>
+          </td>
+        </tr>
+        <!---->
+        <tr>
+          <td valign="top"><img class="pub_img" src="res/publications/framework.png"></td>
+          <td valign="top">
+            <h3>Multi-source transfer learning by learning to weight past tasks</h3>
+            <p class="sub"><b>Qian Jiang</b>, Raymond A. Yeh, Minh N. Do.</p>
+            <p class="sub"><i>Under submission, November 2021</i> <!-- <em>(Oral)</em> --></p>
+            <p class="spacer"></p>
+          </td>
+        </tr>
+      </table>
+
+      <h2>Work Experiences</h2>
+      <ul>
+      <li>Research Intern @ <a href="https://www.ibm.com/watson">IBM Watson</a>
+      (Summer 2020)</ul>
+      <p class="spacer"></p>
+
+      <h2>Teaching Experiences</h2>
+      <ul>
+      <li>ECE310 - Digital Signal Processing @UIUC <a href="https://courses.engr.illinois.edu/ece310/fa2021/">(Fall 2021)</a>
+      </ul>
+      <p class="spacer"></p>
+
+      <h2>Other Experiences</h2>
+      <ul>
+      <li>Cross-disciplinary Scholar in Science and Technology (CSST) @ <a href="https://www.ucla.edu/">Univesity of California, Los Angeles (UCLA)</a> (Summer 2018)
+      <li>Summer School of Engineering @ <a href="https://www.technion.ac.il/">Israel Institute of Technology (Technion)</a> (Summer 2017)</ul>
+      <p class="spacer"></p>
+
+      <hr>
+    </div>
+
+
+    <!--
+    ===========================================================================
+    Publications tab
+    ===========================================================================
+    -->
+
+    <!--
+    ===========================================================================
+    Recent updates tab
+    ===========================================================================
+    -->
+    <div id="news">
+      <ul class="timeline">
+        <li class="event" data-date="May 2021">
+          We open source <a href="https://www.ibm.com/watson">code</a> for our paper <a href="https://arxiv.org/abs/2111.12299">EH-DNAS: End-to-end hardware-aware differentiable neural architecture search</a>.
+        </li>
+        <li class="event" data-date="May 2021">
+          Pass my Qualifying Examination for the Ph.D. Candidacy.
+        </li>
+        <li class="event" data-date="May 2020">
+          Start my internship at <a href="https://www.ibm.com/watson">IBM Watson</a>.
+        </li>
+        <li class="event" data-date="Aug 2019">
+          Start Ph.D. program at <a href="https://illinois.edu/">UIUC</a>.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!--Load this jquery at the end to speed up-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+</html>
